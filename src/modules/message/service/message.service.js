@@ -15,4 +15,4 @@ export const sendMessage = asyncHandler(
         const newMessage = await messageModel.create({ message, recipientId })
 
         return successResponse({ res, message: "Done", status: 201, data: { message: newMessage } })
-    })
+    })     
