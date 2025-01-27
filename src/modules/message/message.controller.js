@@ -8,4 +8,4 @@ const router = Router()
 router.post("/",validation(validators.sendMessage),sendMessage)
 
 
-export default router
+export default router    
